@@ -1,0 +1,15 @@
+package com.company;
+import java.util.Scanner;
+public class Ex 18App {
+    public static void main(String [] args)
+    {
+        Scanner scan = new Scanner(System.in);
+        int a;
+        char b;
+        Ex 18 sc = new Ex 18();
+        System.out.printf("Enter the size of square: ");
+        a = scan.nextInt();
+        sc.Square(a,'*');
+
+    }
+}
